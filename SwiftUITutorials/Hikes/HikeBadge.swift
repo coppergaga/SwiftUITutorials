@@ -24,6 +24,6 @@ struct HikeBadge: View {
 
 struct HikeBadge_Previews: PreviewProvider {
     static var previews: some View {
-        HikeBadge(name: "")
+        HikeBadge(name: "aaa")
     }
 }

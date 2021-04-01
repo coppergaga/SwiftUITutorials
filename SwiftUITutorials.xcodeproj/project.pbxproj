@@ -25,6 +25,9 @@
 		9D7701E72600954900C121C5 /* LandMarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7701E62600954900C121C5 /* LandMarkList.swift */; };
 		9D7701EA26009F4000C121C5 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7701E926009F4000C121C5 /* LandmarkDetail.swift */; };
 		9D7701ED2600B05100C121C5 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7701EC2600B05100C121C5 /* FavoriteButton.swift */; };
+		9D7BBC562615C4DA00801052 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BBC552615C4DA00801052 /* PageViewController.swift */; };
+		9D7BBC5A2615CA6900801052 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BBC592615CA6900801052 /* FeatureCard.swift */; };
+		9D7BBC5D2615CD2A00801052 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BBC5C2615CD2A00801052 /* PageView.swift */; };
 		C20A70A85A7B54FA281E08D1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A76407A36D6A757F783C3 /* HexagonParameters.swift */; };
 		C20A7301FDF8F0BF3704BBE4 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A710FB2CE6955D064E9FC /* HikeDetail.swift */; };
 		C20A741504BE6AAC05E7A1FE /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A714BA2AF824C26584B86 /* CategoryHome.swift */; };
@@ -60,6 +63,9 @@
 		9D7701E62600954900C121C5 /* LandMarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkList.swift; sourceTree = "<group>"; };
 		9D7701E926009F4000C121C5 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		9D7701EC2600B05100C121C5 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		9D7BBC552615C4DA00801052 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9D7BBC592615CA6900801052 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		9D7BBC5C2615CD2A00801052 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		C20A710FB2CE6955D064E9FC /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		C20A714BA2AF824C26584B86 /* CategoryHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		C20A71CCDF65F2E7E6EEBDA9 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 		9D7701C32600832C00C121C5 /* SwiftUITutorials */ = {
 			isa = PBXGroup;
 			children = (
+				9D7BBC542615C4BF00801052 /* PageViewController */,
 				9D7165D726130DAC004B587A /* UserCenter */,
 				9D7701C42600832C00C121C5 /* SwiftUITutorialsApp.swift */,
 				9D7701C62600832C00C121C5 /* ContentView.swift */,
@@ -139,6 +146,16 @@
 				9D7701CB2600832D00C121C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D7BBC542615C4BF00801052 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BBC552615C4DA00801052 /* PageViewController.swift */,
+				9D7BBC592615CA6900801052 /* FeatureCard.swift */,
+				9D7BBC5C2615CD2A00801052 /* PageView.swift */,
+			);
+			path = PageViewController;
 			sourceTree = "<group>";
 		};
 		C20A706B1170306EFD34DF28 /* ShapeDrawn */ = {
@@ -260,10 +277,13 @@
 			files = (
 				9D7701C72600832C00C121C5 /* ContentView.swift in Sources */,
 				9D7701D82600899000C121C5 /* MapView.swift in Sources */,
+				9D7BBC5A2615CA6900801052 /* FeatureCard.swift in Sources */,
 				9D7701C52600832C00C121C5 /* SwiftUITutorialsApp.swift in Sources */,
 				9D7165DD26130EC0004B587A /* ProfileHost.swift in Sources */,
 				9D7165E626132B58004B587A /* ProfileEditor.swift in Sources */,
+				9D7BBC5D2615CD2A00801052 /* PageView.swift in Sources */,
 				9D7701ED2600B05100C121C5 /* FavoriteButton.swift in Sources */,
+				9D7BBC562615C4DA00801052 /* PageViewController.swift in Sources */,
 				9D7701E72600954900C121C5 /* LandMarkList.swift in Sources */,
 				9D7701EA26009F4000C121C5 /* LandmarkDetail.swift in Sources */,
 				9D7701D52600884700C121C5 /* CircleImage.swift in Sources */,

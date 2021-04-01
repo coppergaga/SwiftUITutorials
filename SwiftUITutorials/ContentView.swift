@@ -16,12 +16,14 @@ struct ContentView: View {
     }
     
     var body: some View {
-        TabView(selection: $selection,
-                content:  {
-                    CategoryHome().tabItem { Label("Featured", systemImage: "star") }.tag(Tab.featured)
-                    LandMarkList().tabItem { Label("List", systemImage: "list.bullet") }.tag(Tab.list)
-                })
-        
+//        TabView(selection: $selection,
+//                content:  {
+//                    CategoryHome().tabItem { Label("Featured", systemImage: "star") }.tag(Tab.featured)
+//                    LandMarkList().tabItem { Label("List", systemImage: "list.bullet") }.tag(Tab.list)
+//                })
+        PageView(pages: ModelData().features.map {
+            FeatureCard(landmark: $0)
+        }).aspectRatio(3 / 2, contentMode: .fit)
     }
 }
 
